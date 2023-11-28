@@ -21,6 +21,6 @@ def plot_normalized_histogram(image_array):
     plt.show()
 
 if __name__ == "__main__":
-    image_path = "images/white-noise-970x547.jpg"  # Caminho para a imagem de ruído branco
+    image_path = "images/white-noise-1024x701.jpg"  # Caminho para a imagem de ruído branco
     image_array = read_image(image_path)
     plot_normalized_histogram(image_array)
